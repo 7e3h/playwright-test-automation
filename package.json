@@ -1,0 +1,28 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "Automated UI testing project using Playwright for E-Commerce web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:search": "playwright test tests/search.spec.js",
+    "test:checkout": "playwright test tests/checkout.spec.js",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa-automation",
+    "end-to-end-testing",
+    "javascript",
+    "ecommerce-testing",
+    "test-automation"
+  ],
+  "author": "QA Automation Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}
